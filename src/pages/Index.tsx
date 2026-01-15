@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 import TopNavBar from "@/components/dashboard/TopNavBar";
 import LayerPanel from "@/components/dashboard/LayerPanel";
 import SatelliteTracker from "@/components/dashboard/SatelliteTracker";
@@ -7,8 +8,13 @@ import StatusBar from "@/components/dashboard/StatusBar";
 import GlobeViewer from "@/components/dashboard/GlobeViewer";
 import TimelineSlider from "@/components/dashboard/TimelineSlider";
 import MiniMap from "@/components/dashboard/MiniMap";
+import AOIDrawingTool from "@/components/dashboard/AOIDrawingTool";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Layers, Target, Satellite } from "lucide-react";
 
 const Index = () => {
+  const [rightPanelTab, setRightPanelTab] = useState<string>("satellites");
+
   return (
     <div className="min-h-screen bg-background overflow-hidden relative">
       {/* Hex Pattern Background */}
@@ -50,14 +56,39 @@ const Index = () => {
             </motion.div>
           </div>
 
-          {/* Right Sidebar */}
+          {/* Right Sidebar with Tabs */}
           <motion.aside
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3 }}
             className="w-80 p-4 overflow-y-auto"
           >
-            <SatelliteTracker />
+            <Tabs value={rightPanelTab} onValueChange={setRightPanelTab} className="w-full">
+              <TabsList className="w-full glassmorphism p-1 mb-4 h-auto">
+                <TabsTrigger 
+                  value="satellites" 
+                  className="flex-1 py-2 text-xs font-mono data-[state=active]:bg-primary/20 data-[state=active]:text-primary transition-all"
+                >
+                  <Satellite className="w-3 h-3 mr-1.5" />
+                  Satellites
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="aoi"
+                  className="flex-1 py-2 text-xs font-mono data-[state=active]:bg-secondary/20 data-[state=active]:text-secondary transition-all"
+                >
+                  <Target className="w-3 h-3 mr-1.5" />
+                  AOI Tools
+                </TabsTrigger>
+              </TabsList>
+              
+              <TabsContent value="satellites" className="mt-0">
+                <SatelliteTracker />
+              </TabsContent>
+              
+              <TabsContent value="aoi" className="mt-0">
+                <AOIDrawingTool />
+              </TabsContent>
+            </Tabs>
           </motion.aside>
         </div>
 
