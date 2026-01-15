@@ -12,7 +12,7 @@ Follow these steps:
 # Step 1: Clone the repository using the projec
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd <YOUR_PROJECT
 
 # Step 3: Install the necessary dependencies.
 npm i
