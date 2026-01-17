@@ -10,7 +10,7 @@ Follow these steps:
 ```sh  
 # Step 1: Clone the repository using the projec
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory.sss
 cd <YOUR_PROJECT
 
 # Step 3: Install the necessary dependencies.
