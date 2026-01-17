@@ -13,7 +13,7 @@ Follow these steps:
 # Step 2: Navigate to the project directory.sss
 cd <YOUR_PROJECT
 
-# Step 3: Install the nec    essary dependencies.
+# Step 3: Install the nessary dependencies.
 npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
