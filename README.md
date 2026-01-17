@@ -7,7 +7,7 @@ The only requirement is having Node.js & npm installed - [install with nvm](http
 
 Follow these steps:  
 
-```sh
+```sh  
 # Step 1: Clone the repository using the projec
 
 # Step 2: Navigate to the project directory.
