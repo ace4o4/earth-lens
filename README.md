@@ -2,15 +2,7 @@
 ```sh  
 # Step 1: Clone the repository using the projec
 
-# Step 2: Navigate to the project directory.sss
-cd <YOUR_PROJECT
-
-# Step 3: Install the necesary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+# Step 2: Navig
 
 **Edit a file directly in GitHub**
 
