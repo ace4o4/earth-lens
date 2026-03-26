@@ -6,7 +6,6 @@
 
 **Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
 - Click on the "Code" button (green button) near the top right.
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
