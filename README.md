@@ -11,7 +11,6 @@
 
 - Vite
 
-
 - TypeScript
 - React
 - shadcn-ui
