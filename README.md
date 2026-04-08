@@ -14,7 +14,6 @@
 
 
 
-
 - TypeScript
 - React
 - shadcn-ui
