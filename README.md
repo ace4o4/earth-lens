@@ -8,7 +8,6 @@
 
 
 
-
 **Edit a file directly in GitHub**ar the top right.
 - Select the "Codespaces" tab.
 
