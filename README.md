@@ -12,7 +12,11 @@
 - TypeScript
 - React
 - shadcn-ui
-- Tailwind CSS
+- Tailwind CSS4
+
+
+
+
 
 ## How can I deploy this project?
 
