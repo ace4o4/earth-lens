@@ -3,7 +3,7 @@
 
 # Step 2: Navi
 
-**Edit a file directly in GitHub**ar the top right.
+**Edit a file directly in GitHub**ar the top right
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and
