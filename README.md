@@ -2,7 +2,6 @@
 # Step 1: Clone the repository using the projec
 
 # Step 2: Navi
-
 **Edit a file directly in GitHub**ar the top right
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
