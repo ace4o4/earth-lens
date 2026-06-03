@@ -1,6 +1,6 @@
 ```sh  
 # Step 1: Clone the repository using the projec
-
+#include all steps otherwise there will be installation errors
 # Step 2: Navi
 **Edit a file directly in GitHub**ar the top right
 - Select the "Codespaces" tab.
