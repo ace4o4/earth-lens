@@ -7,8 +7,6 @@
       "@/*": ["./src/*"]
     },
 
-
-
     
     "noImplicitAny": false,
     "noUnusedParameters": false,
