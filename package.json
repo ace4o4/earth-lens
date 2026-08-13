@@ -13,7 +13,6 @@
     "test:watch": "vitest"
   },
 
-
   
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
