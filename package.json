@@ -14,8 +14,7 @@
   },
 
 
-jdk
-  
+jd
 
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
